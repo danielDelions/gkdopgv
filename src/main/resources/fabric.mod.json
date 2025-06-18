@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "fancyvfx",
+  "version": "1.2.6-remapped-1.21.1",
+  "name": "Fancy VFX (Remapped)",
+  "description": "Remapeado para Minecraft 1.21.1",
+  "authors": [
+    "original author",
+    "remapped by ChatGPT"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "maxmag_change.fancyvfx.FancyVFX"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "fabric": "*"
+  }
+}

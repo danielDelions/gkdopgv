@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "id": "fancy-vfx",
+  "version": "1.2.6",
+  "name": "Fancy VFX",
+  "description": "This mod adds new fancy effects to minecraft like Better Explosions, Better Lightnings, Experience Orbs Trails, Shooting vfx and etc.",
+  "authors": [
+    "maxmag_change aka Max"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "ARR",
+  "icon": "assets/fancy-vfx/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "maxmag_change.fancyvfx.FancyVFX"
+    ]
+  },
+  "mixins": [
+    "fancy-vfx.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.16.2",
+    "minecraft": "~1.20.1",
+    "java": "\u003e\u003d17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/accessors-2.3.4+1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/base-2.3.4+1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/blocks-2.3.4+1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/cardinal-components-base-5.2.2.jar"
+    },
+    {
+      "file": "META-INF/jars/cardinal-components-entity-5.2.2.jar"
+    },
+    {
+      "file": "META-INF/jars/cardinal-components-world-5.2.2.jar"
+    },
+    {
+      "file": "META-INF/jars/core-2.3.4+1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/data-2.3.4+1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/extensions-2.3.4+1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/lazy_registration-2.3.4+1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/lodestone-1.20.1-1.6.2.3f-fabric.jar"
+    },
+    {
+      "file": "META-INF/jars/midnightlib-1.4.1-fabric.jar"
+    },
+    {
+      "file": "META-INF/jars/models-2.3.4+1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/model_generators-2.3.4+1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/networking-2.3.4+1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/tool_actions-2.3.4+1.20.1.jar"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "package": "maxmag_change.fancyvfx.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "AbstractHorseEntityMixin",
+    "ArrowEntityRendererMixin",
+    "BowItemMixin",
+    "EntitySprintingParticlesMixin",
+    "ExperienceOrbEntityRendererMixin",
+    "ExperienceOrbPositionTracker",
+    "ExplosionMixin",
+    "ItemMixin",
+    "LightningEffectsImpl",
+    "LivingEntityStatusEffectsMixin",
+    "ProjectileCollisionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "ArrowEntityPositionTracker",
+    "CrossbowItemMixin"
+  ],
+  "refmap": "fancy-vfx-refmap.json"
+}

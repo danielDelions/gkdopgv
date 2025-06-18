@@ -1,0 +1,90 @@
+{
+  "mappings": {
+    "maxmag_change/fancyvfx/mixin/AbstractHorseEntityMixin": {
+      "tickControlled(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/math/Vec3d;)V": "Lnet/minecraft/class_1496;method_49481(Lnet/minecraft/class_1657;Lnet/minecraft/class_243;)V"
+    },
+    "maxmag_change/fancyvfx/mixin/ArrowEntityPositionTracker": {
+      "tick": "Lnet/minecraft/class_1667;method_5773()V"
+    },
+    "maxmag_change/fancyvfx/mixin/ArrowEntityRendererMixin": {
+      "render(Lnet/minecraft/entity/projectile/PersistentProjectileEntity;FFLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V": "Lnet/minecraft/class_876;method_3875(Lnet/minecraft/class_1665;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+    },
+    "maxmag_change/fancyvfx/mixin/BowItemMixin": {
+      "onStoppedUsing(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/LivingEntity;I)V": "Lnet/minecraft/class_1753;method_7840(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;I)V",
+      "use(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/TypedActionResult;": "Lnet/minecraft/class_1753;method_7836(Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1271;"
+    },
+    "maxmag_change/fancyvfx/mixin/CrossbowItemMixin": {
+      "shootAll(Lnet/minecraft/world/World;Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/util/Hand;Lnet/minecraft/item/ItemStack;FF)V": "Lnet/minecraft/class_1764;method_7777(Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;Lnet/minecraft/class_1268;Lnet/minecraft/class_1799;FF)V"
+    },
+    "maxmag_change/fancyvfx/mixin/EntitySprintingParticlesMixin": {
+      "spawnSprintingParticles": "Lnet/minecraft/class_1297;method_5839()V"
+    },
+    "maxmag_change/fancyvfx/mixin/ExperienceOrbEntityRendererMixin": {
+      "render(Lnet/minecraft/entity/ExperienceOrbEntity;FFLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V": "Lnet/minecraft/class_902;method_3966(Lnet/minecraft/class_1303;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+    },
+    "maxmag_change/fancyvfx/mixin/ExperienceOrbPositionTracker": {
+      "tick": "Lnet/minecraft/class_1303;method_5773()V"
+    },
+    "maxmag_change/fancyvfx/mixin/ExplosionMixin": {
+      "Lnet/minecraft/world/World;addParticle(Lnet/minecraft/particle/ParticleEffect;DDDDDD)V": "Lnet/minecraft/class_1937;method_8406(Lnet/minecraft/class_2394;DDDDDD)V",
+      "affectWorld(Z)V": "Lnet/minecraft/class_1927;method_8350(Z)V"
+    },
+    "maxmag_change/fancyvfx/mixin/ItemMixin": {
+      "usageTick(Lnet/minecraft/world/World;Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/item/ItemStack;I)V": "Lnet/minecraft/class_1792;method_7852(Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;I)V"
+    },
+    "maxmag_change/fancyvfx/mixin/LightningEffectsImpl": {
+      "tick": "Lnet/minecraft/class_1538;method_5773()V"
+    },
+    "maxmag_change/fancyvfx/mixin/LivingEntityStatusEffectsMixin": {
+      "onStatusEffectApplied(Lnet/minecraft/entity/effect/StatusEffectInstance;Lnet/minecraft/entity/Entity;)V": "Lnet/minecraft/class_1309;method_6020(Lnet/minecraft/class_1293;Lnet/minecraft/class_1297;)V"
+    },
+    "maxmag_change/fancyvfx/mixin/ProjectileCollisionMixin": {
+      "onCollision": "Lnet/minecraft/class_1676;method_7488(Lnet/minecraft/class_239;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "maxmag_change/fancyvfx/mixin/AbstractHorseEntityMixin": {
+        "tickControlled(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/math/Vec3d;)V": "Lnet/minecraft/class_1496;method_49481(Lnet/minecraft/class_1657;Lnet/minecraft/class_243;)V"
+      },
+      "maxmag_change/fancyvfx/mixin/ArrowEntityPositionTracker": {
+        "tick": "Lnet/minecraft/class_1667;method_5773()V"
+      },
+      "maxmag_change/fancyvfx/mixin/ArrowEntityRendererMixin": {
+        "render(Lnet/minecraft/entity/projectile/PersistentProjectileEntity;FFLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V": "Lnet/minecraft/class_876;method_3875(Lnet/minecraft/class_1665;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+      },
+      "maxmag_change/fancyvfx/mixin/BowItemMixin": {
+        "onStoppedUsing(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/LivingEntity;I)V": "Lnet/minecraft/class_1753;method_7840(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;I)V",
+        "use(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/util/Hand;)Lnet/minecraft/util/TypedActionResult;": "Lnet/minecraft/class_1753;method_7836(Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1271;"
+      },
+      "maxmag_change/fancyvfx/mixin/CrossbowItemMixin": {
+        "shootAll(Lnet/minecraft/world/World;Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/util/Hand;Lnet/minecraft/item/ItemStack;FF)V": "Lnet/minecraft/class_1764;method_7777(Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;Lnet/minecraft/class_1268;Lnet/minecraft/class_1799;FF)V"
+      },
+      "maxmag_change/fancyvfx/mixin/EntitySprintingParticlesMixin": {
+        "spawnSprintingParticles": "Lnet/minecraft/class_1297;method_5839()V"
+      },
+      "maxmag_change/fancyvfx/mixin/ExperienceOrbEntityRendererMixin": {
+        "render(Lnet/minecraft/entity/ExperienceOrbEntity;FFLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V": "Lnet/minecraft/class_902;method_3966(Lnet/minecraft/class_1303;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+      },
+      "maxmag_change/fancyvfx/mixin/ExperienceOrbPositionTracker": {
+        "tick": "Lnet/minecraft/class_1303;method_5773()V"
+      },
+      "maxmag_change/fancyvfx/mixin/ExplosionMixin": {
+        "Lnet/minecraft/world/World;addParticle(Lnet/minecraft/particle/ParticleEffect;DDDDDD)V": "Lnet/minecraft/class_1937;method_8406(Lnet/minecraft/class_2394;DDDDDD)V",
+        "affectWorld(Z)V": "Lnet/minecraft/class_1927;method_8350(Z)V"
+      },
+      "maxmag_change/fancyvfx/mixin/ItemMixin": {
+        "usageTick(Lnet/minecraft/world/World;Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/item/ItemStack;I)V": "Lnet/minecraft/class_1792;method_7852(Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;I)V"
+      },
+      "maxmag_change/fancyvfx/mixin/LightningEffectsImpl": {
+        "tick": "Lnet/minecraft/class_1538;method_5773()V"
+      },
+      "maxmag_change/fancyvfx/mixin/LivingEntityStatusEffectsMixin": {
+        "onStatusEffectApplied(Lnet/minecraft/entity/effect/StatusEffectInstance;Lnet/minecraft/entity/Entity;)V": "Lnet/minecraft/class_1309;method_6020(Lnet/minecraft/class_1293;Lnet/minecraft/class_1297;)V"
+      },
+      "maxmag_change/fancyvfx/mixin/ProjectileCollisionMixin": {
+        "onCollision": "Lnet/minecraft/class_1676;method_7488(Lnet/minecraft/class_239;)V"
+      }
+    }
+  }
+}
